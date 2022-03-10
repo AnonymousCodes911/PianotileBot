@@ -25,10 +25,13 @@ while keyboard.is_pressed('y') == False :
 
     if pyautogui.pixel(376,600)[0] ==0: 
 
-        Mouseclick(376,600)
-    if pyautogui.pixel(452,600)[0] ==0: 
-        Mouseclick(452,600)
-    if pyautogui.pixel(537,600)[0] ==0: 
-        Mouseclick(537,600)
-    if pyautogui.pixel(634,600)[0] ==0: 
-        Mouseclick(634,600)
+        Mouseclick(X,Y)
+    if pyautogui.pixel(X,Y)[0] ==0: 
+        Mouseclick(X,Y)
+    if pyautogui.pixel(X,Y)[0] ==0: 
+        Mouseclick(X,Y)
+    if pyautogui.pixel(X,Y)[0] ==0: 
+        Mouseclick(X,Y)
+        
+      
+#You will have to add the values of X and Y according to your System and screen placements.
